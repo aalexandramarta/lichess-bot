@@ -1,11 +1,28 @@
+# --- Python & virtual envs ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# --- Configs & secrets ---
 *.yml
-**/__pycache__
+.env
+*.token
+lichess_token.txt
+
+# --- Engines ---
 /engines/*
 !/engines/README.md
+
+# --- Logs & temp files ---
 lichess_bot_auto_logs/*
-.vscode/*
-.vs/*
-*.pgn
 *.log
+*.pgn
 *.txt
 TEMP/*
+
+# --- IDEs & OS ---
+.vscode/*
+.vs/*
+.DS_Store
+Thumbs.db
