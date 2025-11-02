@@ -13,6 +13,8 @@ lichess_token.txt
 # --- Engines ---
 /engines/*
 !/engines/README.md
+!/engines/bot/
+!engines/bot/**
 
 # --- Logs & temp files ---
 lichess_bot_auto_logs/*
